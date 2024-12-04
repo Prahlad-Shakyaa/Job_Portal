@@ -19,7 +19,7 @@ from pathlib import Path
 # Initialize environment variables
 env = environ.Env()
 BASE_DIR = Path(__file__).resolve().parent.parent
-environ.Env.read_env(Path.joinpath(BASE_DIR,'.env'))
+environ.Env.read_env(Path.joinpath(BASE_DIR,".env"))
 
 
 DEBUG = True
